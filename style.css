@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://wallpapercave.com/wp/wp5116401.jpg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#one {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(168, 147, 147);
+}
+
+#two {
+  padding-top: 20px;
+}
+
+#two > h1 {
+  text-align: center;
+  font-family: "Gluten", cursive;
+  color: black;
+  font-size: 42px;
+}
+
+#two + #three {
+  background-color: rgb(102, 100, 100);
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#video2 {
+  width: 70%;
+}
+#three > h3 {
+  color: black;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  word-spacing: 3px;
+}
+
+#three > p {
+  text-align: center;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#four {
+  width: 100%;
+  display: flex;
+}
+
+#four > div:nth-child(1) {
+  width: 40%;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+
+#four > div:nth-child(2) {
+  width: 60%;
+}
+
+#five {
+  width: 27%;
+}
+
+#five > img {
+  width: 100%;
+}
+
+#six {
+  margin-top: 10px;
+}
+
+#six > div {
+  display: flex;
+  color: black;
+  align-items: flex-end;
+}
+
+.seven {
+  padding-top: 5px;
+}
+
+.seven p {
+  padding-left: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+#eight > p:nth-child(1) {
+  padding-left: 40px;
+  padding-top: 50px;
+  font-family: "Gluten", cursive;
+  color: black;
+  font-size: 28px;
+}
+
+#eight > p:nth-child(1) ~ p {
+  color: black;
+  padding-left: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 22px;
+}
+
+#nine {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+#nine > #nine1 {
+  width: 40%;
+}
+
+#nine > #nine2 {
+  width: 60%;
+}
+
+#nine1 {
+  color: black;
+  padding-left: 35px;
+  padding-top: 17px;
+}
+
+#nine1 > p {
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+}
+
+#nine1 > p ~ p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 23px;
+}
+
+#nine2 > p {
+  color: black;
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+  padding-left: 40px;
+}
+
+#nine3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+#nine3 > div {
+  width: 21%;
+  border-radius: 20px;
+}
+
+#nine3 > div > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#video1 {
+  font-family: "Gluten", cursive;
+  color: black;
+  font-size: 22px;
+  margin-top: 32px;
+}
+
+#ten {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+#ten1 {
+  width: 40%;
+}
+
+#ten1 > p {
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+  padding-top: 15px;
+  color: black;
+  padding-left: 35px;
+}
+
+#ten1 > p ~ p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 17px;
+  padding-left: 35px;
+}
+
+i {
+  color: black;
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+#ten1 > div {
+  padding-left: 14px;
+}
+
+.para {
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+#ten2 {
+  width: 60%;
+}
+
+#ten2 > p {
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+  padding-top: 15px;
+  color: black;
+  padding-left: 35px;
+}
+
+#ten2 > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 140px);
+  gap: 15px;
+}
+
+.newgap {
+  padding-bottom: 4px;
+}
+
+.newgap > img {
+  width: 27%;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+.newgap > p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+#eleven {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+
+#eleven1 {
+  width: 40%;
+}
+
+#eleven1 > p {
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+  padding-top: 15px;
+  color: black;
+  padding-left: 35px;
+}
+
+#eleven1 > p ~ p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-left: 35px;
+}
+
+#eleven2 {
+  width: 60%;
+  padding-bottom: 10px;
+}
+
+#eleven2 > p ~ p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-left: 13px;
+}
+
+#eleven2 > p {
+  font-family: "Gluten", cursive;
+  font-size: 28px;
+  padding-top: 15px;
+  color: black;
+  padding-left: 35px;
+}
+
+#twelve {
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#twelve2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media all and (min-width: 280px) and (max-width: 580px) {
+  #four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #eleven {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #eleven2 {
+    margin-top: 30px;
+  }
+
+  #five > img {
+    width: 150%;
+  }
+
+  #eleven1 {
+    width: auto;
+  }
+
+  #eleven1 > p ~ p {
+    padding-top: 14px;
+    padding-left: 0px;
+  }
+  #ten1 {
+    width: 62%;
+    margin-bottom: 25px;
+  }
+  .newgap > img {
+    width: 53%;
+  }
+
+  #nine > #nine1 {
+    width: 56%;
+  }
+
+  #four > div:nth-child(1) {
+    width: 71%;
+  }
+
+  #nine > #nine2 {
+    width: 74%;
+  }
+  #nine2 > p {
+    padding-top: 15px;
+  }
+  #nine2 {
+    padding-top: 15px;
+  }
+
+  #video2 {
+    width: 85%;
+  }
+}
+
+@media all and (min-width: 581px) and (max-width: 850px) {
+  #video2 {
+    width: 94%;
+  }
+}
